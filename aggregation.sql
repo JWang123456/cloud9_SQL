@@ -31,3 +31,11 @@ GROUP BY author_fname, author_lname;
 SELECT title, released_year, pages
 FROM books
 WHERE released_year = 2001;
+
+use test_db;
+
+INSERT INTO dogs (name, breed) 
+    VALUES ('bob', 'bomei'),
+            ('robby', 'corgi'),
+            ('Princess jane', 'retrievereeeeeeeeeeeee');
+            
